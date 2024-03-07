@@ -15,7 +15,7 @@
         }
 
         header {
-            background-color: #007BFF;
+            background-color: #000;
             color: #fff;
             padding: 10px; /* 调整蓝色部分的高度和内边距 */
             text-align: center; /* 居中文本 */
@@ -24,7 +24,10 @@
         section {
             padding: 40px;
         }
-
+h1, p {
+    font-weight: bold; /* 字体加粗 */
+    line-height: 1.5; /* 设置行间距为1.5倍字体大小 */
+}
         h1 {
             font-size: 2em;
             margin-bottom: 10px;
@@ -56,16 +59,14 @@
             padding: 20px;
         }
 
-
-        .photo {
-    max-width: 200px;
+.photo {
+    max-width: 100px; /* 调整图片最大宽度 */
+    max-height: 100px; /* 调整图片最大高度 */
     border-radius: 50%;
     white-space: nowrap; /* 阻止文本换行 */
 }
+   
 
-        .photo p {
-    margin: 0; /* 移除段落的默认外边距 */
-}
 
         .bio {
             text-align: left;
