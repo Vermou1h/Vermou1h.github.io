@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HaoruiLi - Personal Website</title>
+    <title>Your Name - CV</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -11,18 +11,17 @@
             padding: 0;
             background-color: #f4f4f4;
             color: #333;
+            text-align: center;
         }
 
         header {
             background-color: #007BFF;
             color: #fff;
             padding: 10px;
-            text-align: left;
         }
 
         section {
             padding: 40px;
-            text-align: center;
         }
 
         h1 {
@@ -40,10 +39,14 @@
             background-color: #333;
             color: #fff;
             padding: 10px;
-            text-align: center;
             position: absolute;
             bottom: 0;
             width: 100%;
+        }
+
+        embed {
+            width: 100%;
+            height: 600px; /* 调整 PDF 视图窗口的高度 */
         }
     </style>
 </head>
@@ -51,22 +54,12 @@
 
     <header>
         <h1>Your Name</h1>
-        <p>Computer Science Enthusiast</p>
+        <p>CV - Curriculum Vitae</p>
     </header>
 
     <section>
-        <h2>About Me</h2>
-        <p>Welcome to my personal website. I am passionate about computer science and technology...</p>
-    </section>
-
-    <section>
-        <h2>Projects</h2>
-        <p>Explore some of my exciting projects and contributions in the field of computer science...</p>
-    </section>
-
-    <section>
-        <h2>Contact</h2>
-        <p>Feel free to reach out to me at your.email@example.com</p>
+        <!-- 嵌入 PDF 文件 -->
+        <embed src="CV.pdf" type="application/pdf"/>
     </section>
 
     <footer>
